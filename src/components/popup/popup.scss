@@ -1,0 +1,16 @@
+.popup {
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 400px;
+    background-color:aqua;
+    padding: 30px;
+    &__wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        input, button {
+            margin-top: 20px;
+        }
+    }
+
+}
